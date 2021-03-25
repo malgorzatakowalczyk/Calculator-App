@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="25dp">
+
+    <Button
+        android:id="@+id/simple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simple"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="167dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/button"
+        />
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/button"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <Button
+        android:id="@+id/advanced"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Advanced"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/button"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/button"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="412dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
